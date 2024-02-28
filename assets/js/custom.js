@@ -31,6 +31,7 @@
         }
     });
 
+    // home two banner slider 
     $(".banner-slider-wrapper-two").owlCarousel({
         animateOut: 'fadeOut', // Animation effect for slide out
         animateIn: 'fadeIn',
@@ -87,7 +88,7 @@
     });
     
 
-    // service slider 
+    // home team slider 
     $('.team_slider_wrapper').owlCarousel({
         loop: true,
         dots: true,
@@ -137,6 +138,60 @@
             },
             1200: {
                 items: 3
+            }
+        }
+    });
+
+    // home-2 testimonial slider
+    $('.home_two_testi_slider').owlCarousel({
+        loop: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 30,
+        nav: true,
+        navText: [
+            '<span class="fas fa-angle-left"></span>',
+            '<span class="fas fa-angle-right"></span>'
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            992: {
+                items: 1,
+            },
+            1200: {
+                items: 1
+            }
+        }
+    });
+
+    // home-2 partner slider 
+    $('.partner_slider_wrapper').owlCarousel({
+        loop: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 100,
+        nav: false,
+        responsive: {
+            0: {
+                items: 2,
+            },
+            768: {
+                items: 2,
+            },
+            992: {
+                items: 3,
+            },
+            1200: {
+                items: 5
             }
         }
     });

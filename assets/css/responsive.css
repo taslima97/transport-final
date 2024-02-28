@@ -64,6 +64,11 @@
         font-size: 36px;
         line-height: 44px;
     }
+
+    .news_date_area {
+        right: 0px;
+        bottom: 0px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -112,6 +117,30 @@
 
     .home_two_service_slider{
         padding: 40px 0;
+    }
+
+    .display_img{
+        display: none;
+    }
+
+    .quote_area_wrapper{
+        margin-bottom: 40px;
+    }
+
+    .pricing-item{
+        margin-bottom: 30px;
+    }
+
+    #home_two_testimonial_area.slider_btn_style_two .owl-theme .owl-nav {
+        margin-top: 10px;
+        position: absolute;
+        left: 1%;
+        bottom: -67px;
+        width: 140px;
+    }
+
+    .home_two_news_card{
+        margin-bottom: 30px;
     }
 }
 
@@ -201,6 +230,10 @@
 
 #home_two_service_area.slider_btn_style_two .owl-theme .owl-nav {
     left: 28%;
+}
+
+.testimonial-content-wrapper {
+    padding-right: 0px;
 }
 }
 
