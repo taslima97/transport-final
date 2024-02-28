@@ -27,6 +27,10 @@
         opacity: 0;
         display: none;
     }
+
+    .faq-text{
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -68,6 +72,15 @@
     .news_date_area {
         right: 0px;
         bottom: 0px;
+    }
+
+    .banner-slide::before {
+        position: absolute;
+        left: 37%;
+        top: 23%;
+        content: "";
+        z-index: 9;
+        width: 50%;
     }
 }
 
