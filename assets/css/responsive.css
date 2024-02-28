@@ -1,0 +1,207 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1440px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width:1440px) {
+    .section_heading h2 {
+        font-size: 36px;
+        line-height: 52px;
+    } 
+
+    #faq_area::after {
+        color: " ";
+        height: 0;
+        width: 0;
+        opacity: 0;
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .banner_slider_content h2 {
+        font-size: 48px;
+        line-height: 64px;
+    }  
+
+    .list_content_box h4 {
+        font-size: 20px;
+    }
+
+    .project-card-img .overlay-content p {
+        display: none;
+    }
+
+    .service-content h4 a {
+        font-size: 20px;
+    }
+
+    .counter_text h2 {
+        font-size: 36px;
+    }
+
+    .banner_two_content_box h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .banner-slide {
+        padding: 200px 0;
+    }
+
+    .home_two_heading_style h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 992px) {
+    .work_card_two {
+        margin-top: 0px;
+    }
+    .work_shape img{
+        display: none;
+    }
+
+    .work_process_inner {
+        background-image: none;
+    }
+
+    .about-left_wrapper{
+        margin-bottom: 30px;
+    }
+    .faq_left{
+        margin-bottom: 20px;
+    }
+
+    .counter_item{
+        margin-bottom: 60px;
+    }
+
+    .home_blog_card{
+        margin-bottom: 30px;
+    }
+
+    .project-card-img .overlay-content p {
+        display: block;
+    }
+
+    .faq-text {
+        padding-right: 0px;
+    }
+
+    .banner_two_content_box p {
+        width: 70%;
+    }
+
+    #home_two_service_area.slider_btn_style_two .owl-theme .owl-nav {
+        left: 35%;
+        bottom: -42px;
+    }
+
+    .home_two_service_slider{
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 767px) {
+  #banner_area .owl-theme .owl-dots {
+    display: none;
+  } 
+  .banner_slider_content{
+    text-align: center;
+  }
+  .banner_slider_content h2 {
+    font-size: 42px;
+    line-height: 60px;
+}
+.banner_slider_content p {
+    width: 100%;
+}
+.banner_slider_content h2 {
+    padding: 10px 0 18px 0;
+}
+.background_bg {
+    padding: 150px 0;
+}
+
+.long-img img{
+    display: none;
+}
+.section_heading h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.section_heading h5 {
+    padding-bottom: 10px;
+}
+
+.banner_two_content_box p {
+    width: 100%;
+}
+}
+
+@media (max-width: 576px) {
+    .banner_slider_content h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }  
+    .faq-text .accordion-item .accordion-header .accordion-button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+ .about_exprience_area h3 {
+    font-size: 42px;
+}   
+.about_exprience_area {
+    width: 200px;
+}
+.about-content-bottom {
+    flex-wrap: wrap;
+}
+.list_content_box {
+    width: 100%;
+}
+.about-content-list ul li{
+    flex-wrap: wrap;
+}
+.banner_two_content_box h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.banner_two_btn_box {
+    flex-wrap: wrap;
+  }
+
+  .about_list_wrapper {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.home_two_about_bottom {
+    gap: 20px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+#home_two_service_area.slider_btn_style_two .owl-theme .owl-nav {
+    left: 28%;
+}
+}
+
+@media (max-width: 361px) {}
