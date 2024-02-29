@@ -31,6 +31,14 @@
     .faq-text{
         padding-right: 0;
     }
+
+    .main-navbar .navbar ul {
+        padding-left: 20px;
+    }
+
+    .main-navbar::before {
+        width: 336px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -81,6 +89,10 @@
         content: "";
         z-index: 9;
         width: 50%;
+    }
+
+    .single_footer_end {
+        padding-right: 0px;
     }
 }
 
@@ -155,6 +167,19 @@
     .home_two_news_card{
         margin-bottom: 30px;
     }
+
+    .copyright_left{
+        text-align: center;
+        padding-bottom: 12px;
+    }
+
+    .copyright_right ul{
+        justify-content: center;
+    }
+
+    .footer_about_area{
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -193,6 +218,10 @@
 .banner_two_content_box p {
     width: 100%;
 }
+
+.single_footer_link{
+    margin-bottom: 30px;
+}
 }
 
 @media (max-width: 576px) {
@@ -202,6 +231,10 @@
     }  
     .faq-text .accordion-item .accordion-header .accordion-button {
         font-size: 18px;
+    }
+
+    .copyright_right{
+        display: none;
     }
 }
 
