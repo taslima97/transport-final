@@ -188,6 +188,13 @@
     .service_sidebar_download {
         text-align: center;
     }
+
+    .service_sidebar_wrapper{
+        margin-top: 30px;
+    }
+    .project_details_item{
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -229,6 +236,20 @@
 
 .single_footer_link{
     margin-bottom: 30px;
+}
+
+.services_details_content_wrapper h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.common_banner_inner h2 {
+    font-size: 40px;
+    line-height: 58px;
+}
+
+.projects_details_content_wrapper h3 {
+    font-size: 30px;
+    line-height: 42px;
 }
 }
 
@@ -288,6 +309,10 @@
 
 .testimonial-content-wrapper {
     padding-right: 0px;
+}
+.test_author_name h4 {
+    font-size: 20px;
+    line-height: 30px;
 }
 }
 

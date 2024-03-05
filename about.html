@@ -121,10 +121,29 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Project</a>
+                                    <a href="#" class="nav-link">Project <i class="fas fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="project.html" class="nav-link">Project</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="project-details.html" class="nav-link">Project Details</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">News</a>
+                                    <a href="#" class="nav-link">News <i class="fas fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="news.html" class="nav-link">News</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="sidebar-news.html" class="nav-link">News With Sidebar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="news-details.html" class="nav-link">News Details</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
@@ -137,12 +156,40 @@
                                         </li>
                                         <li class="nav-item">
                                             <a href="#!" class="nav-link">Team</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="team.html" class="nav-link">Team</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="team-details.html" class="nav-link">Team Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#!" class="nav-link">Shop</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="shop-html" class="nav-link">Shop</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="stop-details.html" class="nav-link">Shop Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="price.html" class="nav-link">Price</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="cart.html" class="nav-link">Cart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="checkout.html" class="nav-link">Checkout</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="login.html" class="nav-link">Login</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#!" class="nav-link">FAQ</a>
+                                            <a href="faq.html" class="nav-link">FAQ</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="error.html" class="nav-link">404 Error</a>
@@ -165,22 +212,6 @@
                     </nav>
                 </div>
             </div>
-            <!-- <div class="others-option-for-responsive">
-                <div class="container">
-                    <div class="container">
-                        <div class="option-inner">
-                            <div class="others-options d-flex align-items-center">
-                                <div class="option-item">
-                                    <a href="#" class="search-box"><i class="fas fa-search"></i></a>
-                                </div>
-                                <div class="option-item">
-                                    <a href="make-donation.html" class="btn  btn_navber">Donate now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </header>
     <!-- search overly -->
@@ -207,13 +238,12 @@
     <!-- Banner Area -->
     <section id="common_banner">
         <div class="container">
-            <div class="common_banner_inner wow fadeInLeft animated" data-duration="400ms"
-            data-delay="200ms">
+            <div class="common_banner_inner wow fadeInLeft animated" data-duration="400ms" data-delay="200ms">
                 <h2>About Us</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
                     </ol>
                 </nav>
             </div>
@@ -222,7 +252,7 @@
     <!-- banner end -->
 
     <!-- About section -->
-    <section id="Home_two_about_area" class="section-padding-top">
+    <section id="about_page_area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -535,15 +565,66 @@
     <!-- service section End -->
 
     <!-- Our nission and vission -->
-    <!-- <section id="mission_vision_area">
+    <section id="mission_vision_area" class="section-padding-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-
+                <div class="col-lg-12">
+                    <div class="our_mission_wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="our_mission_img">
+                                    <img src="assets/img/common/mission.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="our_mission_content">
+                                    <h3>Our Mission</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam debitis officiis
+                                        quibusdam, aliquid ullam obcaecati odit maxime vero culpa quasi, animi nostrum
+                                        reiciendis earum harum facere illum doloremque. Nulla.</p>
+                                    <ul class="about_info_list">
+                                        <li><i class="fas fa-check-circle"></i> Fastest Delivery sit amet consectetur adipisicing elit. Quas totam debitis</li>
+                                        <li><i class="fas fa-check-circle"></i> High maintenance odit maxime vero culpa quasi</li>
+                                        <li><i class="fas fa-check-circle"></i> Safe and Secure adipisicing elit. Quas totam debiti</li>
+                                        <li><i class="fas fa-check-circle"></i> Fastest Delivery sit amet consectetur adipisicing elit. Quas totam debitis</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="our_mission_wrapper">
+                        <div class="row align-items-center">
+                           <div class="col-lg-6">
+                                <div class="our_mission_content">
+                                    <h3>Our Vision</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam debitis officiis
+                                        quibusdam, aliquid ullam obcaecati odit maxime vero culpa quasi, animi nostrum
+                                        reiciendis earum harum facere illum doloremque. Nulla.</p>
+                                    <ul class="about_info_list">
+                                        <li><i class="fas fa-check-circle"></i> Fastest Delivery sit amet consectetur adipisicing elit. Quas totam debitis</li>
+                                        <li><i class="fas fa-check-circle"></i> High maintenance odit maxime vero culpa quasi</li>
+                                        <li><i class="fas fa-check-circle"></i> Safe and Secure adipisicing elit. Quas totam debiti</li>
+                                        <li><i class="fas fa-check-circle"></i> Fastest Delivery sit amet consectetur adipisicing elit. Quas totam debitis</li>
+                                        <li><i class="fas fa-check-circle"></i> High maintenance odit maxime vero culpa quasi</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="our_mission_img">
+                                    <img src="assets/img/common/vision.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- Our nission and vission end -->
 
     <!-- FAQ section -->
@@ -982,7 +1063,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="col-lg-6">

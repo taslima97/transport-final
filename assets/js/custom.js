@@ -201,6 +201,31 @@
         }
     });
 
+    // priceing page testimonial slider
+    $('.testimonial_slider').owlCarousel({
+        loop: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 30,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            992: {
+                items: 2,
+            },
+            1200: {
+                items: 3
+            }
+        }
+    });
+
     // home-2 partner slider 
     $('.partner_slider_wrapper').owlCarousel({
         loop: true,
