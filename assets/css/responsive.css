@@ -94,6 +94,12 @@
     .single_footer_end {
         padding-right: 0px;
     }
+
+    .list_content h4 {
+        line-height: 34px;
+        font-size: 19px;
+    }
+    
 }
 
 @media (max-width: 992px) {
@@ -195,6 +201,16 @@
     .project_details_item{
         margin-bottom: 30px;
     }
+
+    .blog_list_right .home_blog_content {
+        padding: 24px;
+    }
+
+    .blog_list_img img {
+        border-radius: 12px;
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 767px) {
@@ -250,6 +266,17 @@
 .projects_details_content_wrapper h3 {
     font-size: 30px;
     line-height: 42px;
+}
+
+.news_details_content_wrapper h3 {
+    font-size: 30px;
+    line-height: 44px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.news_details_img h5 {
+    font-size: 18px;
 }
 }
 

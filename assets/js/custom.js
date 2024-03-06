@@ -1,4 +1,4 @@
- 
+
 
 (function ($) {
     "use strict";
@@ -36,7 +36,7 @@
     $(".banner_slider_wrapper").owlCarousel({
         animateOut: "fadeOut",
         animateIn: "fadeIn",
-        dots:true,
+        dots: true,
         loop: true,
         margin: 0,
         nav: false,
@@ -65,7 +65,7 @@
     $(".banner-slider-wrapper-two").owlCarousel({
         animateOut: 'fadeOut', // Animation effect for slide out
         animateIn: 'fadeIn',
-        dots:false,
+        dots: false,
         loop: true,
         margin: 0,
         nav: true,
@@ -116,7 +116,7 @@
             }
         }
     });
-    
+
 
     // home team slider 
     $('.team_slider_wrapper').owlCarousel({
@@ -252,17 +252,17 @@
     });
 
 
-        // counter
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
+    // counter
+    jQuery(document).ready(function ($) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
         });
+    });
 
-        // naen menu 
-        jQuery('.mean-menu').meanmenu({
-            meanScreenWidth: "1199"
-        });
-    
+    // naen menu 
+    jQuery('.mean-menu').meanmenu({
+        meanScreenWidth: "1199"
+    });
+
 })(jQuery);
