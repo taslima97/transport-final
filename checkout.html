@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Login - Transpik </title>
+    <title>Checkout - Transpik </title>
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- animate css -->
@@ -166,10 +166,10 @@
                                             <a href="#!" class="nav-link">Shop</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="shop.html" class="nav-link">product</a>
+                                                    <a href="S.html" class="nav-link">Product</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="shop-details.html" class="nav-link">product Details</a>
+                                                    <a href="shop-details.html" class="nav-link">Product Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -180,10 +180,10 @@
                                             <a href="cart.html" class="nav-link">Cart</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="checkout.html" class="nav-link">Checkout</a>
+                                            <a href="checkout.html" class="nav-link active">Checkout</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="login.html" class="nav-link active">Login</a>
+                                            <a href="login.html" class="nav-link">Login</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="faq.html" class="nav-link">FAQ</a>
@@ -236,11 +236,11 @@
     <section id="common_banner">
         <div class="container">
             <div class="common_banner_inner wow fadeInLeft animated" data-duration="400ms" data-delay="200ms">
-                <h2>Login</h2>
+                <h2>Checkout</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Login</li>
+                        <li class="breadcrumb-item active" aria-current="page">checkout</li>
                     </ol>
                 </nav>
             </div>
@@ -248,36 +248,242 @@
     </section>
     <!-- banner end -->
 
-    <!-- login & registration section -->
-    <section id="login_registration_area" class="section-padding">
+    <!-- checkout section  -->
+    <section id="checkout_area" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="login_form_area wow fadeInUp animated" data-wow-delay="300ms">
-                        <h3>Please login</h3>
-                        <form action="#!" id="login_from">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group comment_form">
-                                        <input type="email" class="form-control" placeholder="Enter email address"
-                                            required >
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="checkout-area_bg wow fadeInLeft animated" data-wow-delay="300ms">
+                        <div class="check-heading">
+                            <h3>Billings Information</h3>
+                        </div>
+                        <div class="check-out-form">
+                            <form method="post">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="fname">First name</label>
+                                            <input type="text" required="" class="form-control" id="fname"
+                                                placeholder="First name *">
+                                        </div>
                                     </div>
-                                    <div class="form-group comment_form">
-                                        <input type="text" class="form-control" placeholder="Enter Password" required >
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="lname">Last name</label>
+                                            <input type="text" required="" class="form-control" id="lname"
+                                                placeholder="Last name *">
+                                        </div>
                                     </div>
-                                    <div class="login_btn">
-                                        <button class="btn theme-btn">Login</button>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="cname">Company Name</label>
+                                            <input class="form-control" required="" type="text" id="cname"
+                                                placeholder="Company Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="email">Email Addresse</label>
+                                            <input class="form-control" required="" type="text" id="email"
+                                                placeholder="info@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="country">Country</label>
+                                            <select class="form-control first_null" id="country">
+                                                <option value="">Select an option...</option>
+                                                <option value="AX">usa</option>
+                                                <option value="AF">Afghanistan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="city">State/City</label>
+                                            <select class="form-control first_null" id="city">
+                                                <option value="">Select an option...</option>
+                                                <option value="AX">Aland Islands</option>
+                                                <option value="AF">Afghanistan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="zip">State/City</label>
+                                            <input type="text" class="form-control" id="zip" required=""
+                                                placeholder="Enter Your zipcode">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="faddress">Full Address</label>
+                                            <input type="text" class="form-control" id="faddress" required=""
+                                                placeholder="Enter your address here..">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group mb-4">
+                                            <label for="messages">Additional Notes</label>
+                                            <textarea rows="5" class="form-control" style="height: 100px;" id="messages"
+                                                placeholder="Order notes"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                                            <label class="form-check-label" for="materialUnchecked">Save In Address
+                                                Book</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="order_review  box-shadow bg-white wow fadeInRight animated" data-wow-delay="300ms">
+                        <div class="check-heading">
+                            <h3>Your Orders</h3>
+                        </div>
+                        <div class="table-responsive order_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Blue Dress For Woman <span class="product-qty">x 2</span>
+                                        </td>
+                                        <td>$90.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lether Gray Tuxedo <span class="product-qty">x 1</span>
+                                        </td>
+                                        <td>$55.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Woman Full Sliv Dresss <span class="product-qty">x 3</span>
+                                        </td>
+                                        <td>$204.00</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>SubTotal</th>
+                                        <td class="product-subtotal">$349.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Shipping</th>
+                                        <td>Free Shipping</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Total</th>
+                                        <td class="product-subtotal">$349.00</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="order_review faq-text">
+                        <div class="check-heading">
+                            <h3>Payment</h3>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item wow fadeInUp animated" data-wow-delay="300ms">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Credir Card / Debit Card
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <form class="payment-info">
+                                            <div class="row clearfix">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                                    <div class="field-input mb-3">
+                                                        <input type="text" class="form-control" name="name"
+                                                            placeholder="Name on the Card" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                                    <div class="field-input mb-3">
+                                                        <input type="text" class="form-control" name="number"
+                                                            placeholder="Card Number" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-12 column">
+                                                    <div class="field-input mb-3">
+                                                        <input type="text" class="form-control" name="date"
+                                                            placeholder="Expiry Date" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-12 column">
+                                                    <div class="field-input mb-3">
+                                                        <input type="text" class="form-control" name="code"
+                                                            placeholder="Security Code" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12 col-sm-12 column">
+                                                    <div class="field-input message-btn">
+                                                        <button type="submit" class="theme-btn btn-style-one"
+                                                            data-loading-text="Please wait..."><span
+                                                                class="btn-title">Make Payment</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
-                        </form>
-                        <p>Dont have an account? <a href="registration.html">Register now</a></p>
+                            <div class="accordion-item wow fadeInUp animated" data-wow-delay="400ms">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Check Payment
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Cupidatat dolor irure aliqua mollit magna quis nisi
+                                            exercitation. Deserunt ex quis dolor quis aliqua mollit magna.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeInUp animated" data-wow-delay="500ms">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Direct Bank Transfer
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Cupidatat dolor irure aliqua mollit magna quis nisi
+                                            exercitation. Deserunt ex quis dolor quis aliqua mollit magna.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#!" class="order_btn btn theme-btn">Place Order</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- login & registration section end -->
+    <!-- checkout section end -->
 
     <!-- footer area -->
     <footer id="footer-area" class="section-padding">

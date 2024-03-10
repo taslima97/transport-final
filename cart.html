@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Login - Transpik </title>
+    <title>Cart - Transpik </title>
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- animate css -->
@@ -166,10 +166,10 @@
                                             <a href="#!" class="nav-link">Shop</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="shop.html" class="nav-link">product</a>
+                                                    <a href="S.html" class="nav-link">Product</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="shop-details.html" class="nav-link">product Details</a>
+                                                    <a href="shop-details.html" class="nav-link">Product Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -177,13 +177,13 @@
                                             <a href="price.html" class="nav-link">Price</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="cart.html" class="nav-link">Cart</a>
+                                            <a href="cart.html" class="nav-link active">Cart</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="checkout.html" class="nav-link">Checkout</a>
+                                            <a href="checkout.html" class="nav-link ">Checkout</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="login.html" class="nav-link active">Login</a>
+                                            <a href="login.html" class="nav-link">Login</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="faq.html" class="nav-link">FAQ</a>
@@ -236,11 +236,11 @@
     <section id="common_banner">
         <div class="container">
             <div class="common_banner_inner wow fadeInLeft animated" data-duration="400ms" data-delay="200ms">
-                <h2>Login</h2>
+                <h2>Cart</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Login</li>
+                        <li class="breadcrumb-item active" aria-current="page">Cart</li>
                     </ol>
                 </nav>
             </div>
@@ -248,36 +248,146 @@
     </section>
     <!-- banner end -->
 
-    <!-- login & registration section -->
-    <section id="login_registration_area" class="section-padding">
+    <!-- cart section  -->
+    <section id="cart_area" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="login_form_area wow fadeInUp animated" data-wow-delay="300ms">
-                        <h3>Please login</h3>
-                        <form action="#!" id="login_from">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group comment_form">
-                                        <input type="email" class="form-control" placeholder="Enter email address"
-                                            required >
-                                    </div>
-                                    <div class="form-group comment_form">
-                                        <input type="text" class="form-control" placeholder="Enter Password" required >
-                                    </div>
-                                    <div class="login_btn">
-                                        <button class="btn theme-btn">Login</button>
-                                    </div>
+                <div class="col-lg-12">
+                    <div class="table-responsive wow fadeInUp animated" data-wow-delay="300ms">
+                        <table class="table table-bordered table align-middle cart_table">
+                            <thead>
+                                <tr>
+                                    <th>Remove</th>
+                                    <th>Image</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="single_cart_item">
+                                    <td class="product_remove"><a title="Remove" class="remove_item" href="#"><i
+                                                class="fas fa-trash-alt"></i></a></td>
+                                    <td class="product_img"><a href="#"><img alt="product"
+                                                src="assets/img/cart/shop-1.jpg"></a></td>
+                                    <td class="product_name"><a href="#!">Urban Transport</a>
+                                    </td>
+                                    <td class="product_price"><span class="amount">$36.00</span></td>
+                                    <td class="product_quantity">
+                                        <label>Quantity :</label>
+                                        <input min="1" max="100" value="1" type="number">
+                                    </td>
+                                    <td class="product_subtotal"><span class="amount">$36.00</span></td>
+                                </tr>
+                                <tr class="single_cart_item">
+                                    <td class="product_remove"><a title="Remove this item" class="remove_item"
+                                            href="#"><i class="fas fa-trash-alt"></i></a></td>
+                                    <td class="product_img"><a href="#"><img alt="product"
+                                                src="assets/img/cart/shop-2.jpg"></a></td>
+                                    <td class="product_name"><a href="#!">Logistic Transport</a>
+                                    </td>
+                                    <td class="product_price"><span class="amount">$215.00</span></td>
+                                    <td class="product_quantity">
+                                        <label>Quantity :</label>
+                                        <input min="1" max="100" value="1" type="number">
+                                    </td>
+                                    <td class="product_subtotal"><span class="amount">$215.00</span></td>
+                                </tr>
+                                <tr class="single_cart_item">
+                                    <td class="product_remove"><a title="Remove this item" class="remove_item"
+                                            href="#"><i class="fas fa-trash-alt"></i></a></td>
+                                    <td class="product_img"><a href="#"><img alt="product"
+                                                src="assets/img/cart/shop-3.jpg"></a></td>
+                                    <td class="product_name"><a href="#!">Cargo Transport</a>
+                                    </td>
+                                    <td class="product_price"><span class="amount">$68.00</span></td>
+                                    <td class="product_quantity">
+                                        <label>Quantity :</label>
+                                        <input min="1" max="100" value="1" type="number">
+                                    </td>
+                                    <td class="product_subtotal"><span class="amount">$68.00</span></td>
+                                </tr>
+                                <tr class="single_cart_item">
+                                    <td colspan="3">
+                                        <form class="row g-3 coupon-form">
+                                            <div class="col-auto">
+                                                <input type="text" name="coupon_code"
+                                                    class="input-text form-control mr-1" id="coupon_code" value
+                                                    placeholder="Coupon code">
+                                            </div>
+                                            <div class="col-auto">
+                                                <button type="submit" class="cupon_btn btn theme-btn"
+                                                    name="apply_coupon" value="Apply Coupon">Apply Coupon</button>
+                                            </div>
+                                        </form>
+                                    </td>
+                                    <td colspan="2">&nbsp;</td>
+                                    <td><button type="button" class="theme-btn btn-style-one"><span
+                                                class="btn-title">Update Cart</span></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_bottom_area">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="calculate_area wow fadeInLeft animated" data-wow-delay="400ms">
+                            <h5>Cart Total</h5>
+                            <div class="calculate_inner">
+                                <div class="cart_subtotal">
+                                    <p>Subtotal</p>
+                                    <p class="cart_amount">$215.00</p>
+                                </div>
+                                <div class="cart_subtotal ">
+                                    <p>Shipping</p>
+                                    <p class="cart_amount"><span>Flat Rate:</span> $255.00</p>
+                                </div>
+                                <a href="#!">Calculate shipping</a>
+
+                                <div class="cart_subtotal">
+                                    <p>Total</p>
+                                    <p class="cart_amount">$215.00</p>
+                                </div>
+                                <div class="checkout_btn">
+                                    <a href="checkout.html" class="btn theme-btn">Proceed to
+                                        Checkout</a>
                                 </div>
                             </div>
-                        </form>
-                        <p>Dont have an account? <a href="registration.html">Register now</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-lg-1">
+                        <div class="right_calculate calculate_area wow fadeInRight animated" data-wow-delay="500ms">
+                            <h5>Calculate Shipping</h5>
+                            <form class="form calculate_inner" action="#">
+                                <div class="comment_form">
+                                    <select class="form-control">
+                                        <option>Select Country</option>
+                                        <option>Australia</option>
+                                        <option>UK</option>
+                                        <option>USA</option>
+                                    </select>
+                                </div>
+                                <div class="comment_form">
+                                    <input type="text" class="form-control" placeholder="State/country" value>
+                                </div>
+                                <div class="comment_form">
+                                    <input type="text" class="form-control" placeholder="Postcod/zip" value>
+                                </div>
+                                <div class="">
+                                    <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Update
+                                            Totals</span></button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- login & registration section end -->
+    <!-- cart section end -->
 
     <!-- footer area -->
     <footer id="footer-area" class="section-padding">
