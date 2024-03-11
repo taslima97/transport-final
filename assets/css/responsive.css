@@ -49,6 +49,11 @@
         font-size: 20px;
         line-height: 24px;
     }
+
+    .work_content h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -355,6 +360,37 @@
         font-size: 40px;
         line-height: 52px;
     }
+
+    .quote_head h2 {
+        font-size: 40px;
+    }
+
+    .home_two_heading_style h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .choose_icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .choose_icon i {
+        font-size: 28px;
+    }
+
+    .choose_info {
+        width: 80%;
+    }
+
+    .our_mission_content h3 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    #about_page_area .home_two_heading_style p {
+        width: 90%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -379,6 +415,10 @@
 
     .comment_img {
         margin-bottom: 16px;
+    }
+
+    #about_page_area .home_two_heading_style p {
+        width: 100%;
     }
 }
 

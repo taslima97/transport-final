@@ -1184,6 +1184,7 @@ ul li {
 
 .project-card-img .overlay-content h4 a {
   color: #fff;
+  padding-bottom: 12px;
 }
 
 .project-card-img .overlay-content p {
@@ -1194,8 +1195,10 @@ ul li {
   color: #fff;
 }
 
-.overlay-content h6 {
+.overlay-content h5 {
   color: #fff;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 /* team section */
@@ -1317,7 +1320,7 @@ ul li {
 
 .home_blog_content h4 {
   padding-bottom: 10px;
-
+  line-height: 34px;
 }
 
 .home_blog_content h4 a {
@@ -1443,7 +1446,7 @@ padding-bottom: 20px;
 
 .single_footer_link h4{
   color: #fff;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .footer_link_box ul li a{
@@ -1451,7 +1454,8 @@ padding-bottom: 20px;
   font-size: 16px;
 }
 .footer_link_box ul li{
- padding-bottom: 12px;
+ margin-bottom: 12px;
+ position: relative;
 }
 
 .single_footer_end {
@@ -1466,7 +1470,6 @@ padding-bottom: 4px;
 
 .single_footer_end h4{
 color: #fff;
-padding-bottom: 24px;
 }
 
 .footer_news_info p{
@@ -1493,6 +1496,35 @@ height: 47px;
 
 .footer_link_box ul li a:hover{
   color: var(--theme-color);
+}
+
+
+.single_footer_link h4{
+  position: relative;
+  display: inline-block;
+}
+.single_footer_link h4::after{
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  content: "";
+  background-color: var(--theme-color);
+  height: 1px;
+  width: 100%;
+}
+
+.footer_link_box ul li::after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 0px;
+  transition: var(--transition);
+}
+.footer_link_box ul li:hover:after{
+  width: 100px;
 }
 
 /* copyright area */
@@ -3054,7 +3086,7 @@ color: #fff;
 
 .popular_tags ul li {
   background: #dddddd70;
-  padding: 6px 10px;
+  padding: 8px 14px;
   margin-right: 10px;
   margin-top: 15px;
   transition: var(--transition);
@@ -3435,8 +3467,13 @@ font-weight: 600;
  }
 
  .product_overly h4{
-  color: #fff;
   font-weight: 600;
+ }
+ .product_overly h4 a{
+  color: #fff;
+ }
+ .product_overly h4 a:hover{
+  color: var(--theme-color);
  }
  .product_overly h5{
   color: #fff;
@@ -3818,6 +3855,6 @@ color: var(--theme-color);
 }
 
 .order_review a{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
