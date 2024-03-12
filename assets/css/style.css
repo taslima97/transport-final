@@ -172,7 +172,7 @@ ul li {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   text-align: center;
   text-decoration: none;
@@ -546,6 +546,7 @@ ul li {
 
 .about-content p {
   padding-bottom: 20px;
+  margin-top: -10px;
 }
 
 .about-content-list p {
@@ -653,8 +654,7 @@ ul li {
 }
 
 .our_mission_img {
-  max-width: 600px;
-  width: 100%;
+  margin-right: 30px;
   margin-bottom: 16px;
   border-radius: 8px;
   overflow: hidden;
@@ -1023,7 +1023,7 @@ ul li {
   border: none;
   -webkit-box-shadow: 0px 3px 15px 0px rgba(15, 27, 36, 0.1);
   box-shadow: 0px 3px 15px 0px rgba(15, 27, 36, 0.1);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .faq-text .accordion-body {
@@ -1368,7 +1368,7 @@ ul li {
   left: 0;
   top: 0;
   width: 100%;
-  height: 0;
+  height: 0%;
   opacity: 1;
   z-index: 9;
   pointer-events: none;
@@ -1410,7 +1410,7 @@ color: #fff;
 }
 
 .footer_about_area .footer_logo{
-  padding-bottom: 26px;
+  padding-bottom: 18px;
 }
 
 .footer_social_icon h5{
@@ -1419,7 +1419,7 @@ padding-bottom: 20px;
 }
 
 .footer_social_icon{
-  padding-top: 16px;
+  padding-top: 20px;
 }
 .footer_social_icon a{
   color: #FFFFFF;
@@ -1946,7 +1946,6 @@ height: 47px;
 .home_two_heading_style h2 {
   line-height: 60px;
   font-weight: 600;
-  padding-bottom: 10px;
 }
 
 #home_two_service_area.slider_btn_style_two .owl-theme .owl-nav {
@@ -1976,11 +1975,12 @@ height: 47px;
 }
 
 .about_info_list li {
-  padding-bottom: 8px;
+  padding-bottom: 12px;
 }
 
 #Home_two_about_area .home_two_heading_style p {
   width: 80%;
+  padding-top: 24px;
 }
 
 #about_page_area {
@@ -1990,6 +1990,7 @@ height: 47px;
 }
 #about_page_area .home_two_heading_style p {
   width: 80%;
+  padding-top: 24px;
 }
 
 
@@ -2077,7 +2078,7 @@ height: 47px;
 }
 
 .why_choose_single_item{
-  padding-bottom: 24px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2181,7 +2182,7 @@ height: 47px;
   color: #fff;
 }
 
-.form-check input:focus {
+.single_tag_box .form-check input:focus {
   outline: none;
   box-shadow: none;
 }
@@ -2213,6 +2214,11 @@ height: 47px;
 
 .faq-text .home_two_heading_style {
   padding-bottom: 40px;
+}
+
+.single_tag_box .form-check-input:checked {
+  background-color: #000;
+  border-color: #000;
 }
 
 /* pricing section */
@@ -2328,7 +2334,7 @@ color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
 }
 .test_img_two img{
   width: auto !important;
@@ -2347,7 +2353,7 @@ color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
+  padding-top: 14px;
 }
 
 .test_author_name h4{
@@ -2367,8 +2373,8 @@ font-weight: 600;
 }
 
 .testimonial-content-wrapper p{
-  padding-top: 12px;
-  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 14px;
 }
 
 .testimonial-content-wrapper{
@@ -2484,7 +2490,7 @@ display: block;
 
 .home_two_news_content h5{
   font-weight: 600;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   font-size: 18px;
 }
 .home_two_news_content h4{
@@ -2768,7 +2774,7 @@ display: block;
   background-repeat: no-repeat;
   background-size: auto;
   padding: 100px 0;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
 }
 
@@ -2835,12 +2841,12 @@ color: #fff;
 .service_sidebar_download_btn .theme-btn{
   padding: 18px 40px;
 }
-.service_sidebar_download_btn .theme-btn span{
+.service_sidebar_download_btn .theme-btn{
  font-size: 18px;
 }
-.service_sidebar_download_btn .theme-btn span i{
+.service_sidebar_download_btn .theme-btn i{
  font-size: 20px;
- margin-right: 20px;
+ margin-right: 4px;
 }
 
 /*===============================
@@ -3261,8 +3267,7 @@ color: #000;
   team details page 
  ==============================*/
  .team_details_img{
-  max-width: 600px;
-  width: 100%;
+  margin-right: 30px;
  }
 
  .team_details_img img{
@@ -3360,7 +3365,7 @@ color: #000;
 }
 
 .team_details_progress_area{
-  padding-right: 60px;
+  padding-right: 30px;
   padding-top: 60px;
 }
 
@@ -3526,9 +3531,15 @@ color: var(--theme-color);
 .thumbnail_slider img{
  width: 90%;
 }
-
+.product-d-slider{
+  /* max-width: 566px;
+  width: 100%; */
+  margin-right: 16px;
+  border-radius: 8px;
+}
 .product-d-slider img{
   border-radius: 8px;
+  
 }
 
 .plus-minus-input{
@@ -3639,7 +3650,7 @@ color: var(--theme-color);
   padding-left: 20px;
 }
 .product_details_list li{
-  padding-bottom: 8px;
+  padding-bottom: 12px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -3671,6 +3682,10 @@ color: var(--theme-color);
 .address-box p a{
   color: var(--paragraph-color);
 }
+.address-box p i{
+  margin-right: 4px;
+}
+
 .address-box p a:hover{
   color: var(--theme-color);
 }
@@ -3835,6 +3850,10 @@ color: var(--theme-color);
   font-size: 30px;
   font-weight: 600;
   padding-bottom: 20px;
+}
+
+.top_order_review .check-heading h3{
+  padding-bottom: 10px;
 }
 
 .check-out-form .form-check-input:checked {

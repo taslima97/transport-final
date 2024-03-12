@@ -54,6 +54,11 @@
         font-size: 20px;
         line-height: 24px;
     }
+
+    .news_date_area {
+        right: 0px;
+        bottom: 0px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -92,11 +97,6 @@
         line-height: 44px;
     }
 
-    .news_date_area {
-        right: 0px;
-        bottom: 0px;
-    }
-
     .banner-slide::before {
         position: absolute;
         left: 37%;
@@ -122,6 +122,11 @@
     .post_replay {
         text-align: end;
         margin-top: 0px;
+    }
+
+    .choose_icon {
+        height: 70px;
+        width: 70px;
     }
 }
 
@@ -261,8 +266,12 @@
 
     .product_slider_wrapper{
         margin-bottom: 30px;
+        margin-right: 40px;
     }
     
+    .our_vision_wrapper{
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -391,6 +400,10 @@
     #about_page_area .home_two_heading_style p {
         width: 90%;
     }
+
+    .choose_info {
+        width: 84%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -478,6 +491,10 @@
 
     .middle_page_item{
         display: none;
+    }
+
+    .about-content-list ul li {
+        gap: 12px;
     }
 }
 
