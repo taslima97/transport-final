@@ -59,6 +59,18 @@
         right: 0px;
         bottom: 0px;
     }
+
+    .background_bg {
+        padding: 90px 0px 120px 0;
+    }
+
+    .banner-slide {
+        padding: 200px 0px 250px 0;
+      }
+
+      .topbar_list li:first-child {
+        display: none;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -86,10 +98,6 @@
     .banner_two_content_box h1 {
         font-size: 48px;
         line-height: 60px;
-    }
-
-    .banner-slide {
-        padding: 200px 0;
     }
 
     .home_two_heading_style h2 {
@@ -128,6 +136,20 @@
         height: 70px;
         width: 70px;
     }
+
+    #about_faq_area{
+        padding: 50px 0;
+    }
+
+    .project_details_item h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .team_details_social {
+        padding-bottom: 30px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -177,7 +199,7 @@
     }
 
     .home_two_service_slider {
-        padding: 40px 0;
+        padding: 26px 0;
     }
 
     .display_img {
@@ -300,15 +322,61 @@
     #quote_area{
         padding: 80px 0px 70px 0px; 
     }
+
+    #home_two_partner{
+        padding: 70px 0;
+    }
+
+    #home_two_news_area {
+        padding: 90px 0px 70px 0px;
+    }
+
+    #faq_area {
+        padding: 90px 0px 70px 0px;
+    }
+
+    #home_two_testimonial_area{
+        padding: 0 0 140px 0;
+    }
+
+    #about_area{
+        padding: 80px 0 80px 0;
+    }
+
+    #work_process_area {
+        padding: 90px 0px 70px 0px;
+    }
+
+    #our_team_area {
+        padding: 80px 0;
+    }
+
+    #hone_two_pricing_area {
+        padding: 80px 0;
+        margin-bottom: 70px;
+    }
+
+    #pricing_page_area{
+        padding-bottom: 20px;
+        padding-top: 80px;
+    }
+
+    .checkout-area_bg {
+        margin-bottom: 30px;
+    }
+
+    .banner-slide {
+        padding: 100px 0 160px 0;
+    }
+
+    .team_details_social {
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 767px) {
     #banner_area .owl-theme .owl-dots {
         display: none;
-    }
-
-    .banner_slider_content {
-        text-align: center;
     }
 
     .banner_slider_content h2 {
@@ -325,7 +393,7 @@
     }
 
     .background_bg {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 
     .long-img img {
@@ -434,6 +502,15 @@
         width: 84%;
     }
 
+    .banner_two_content_box h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .home_two_service_slider {
+        padding: 12px 0;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -525,6 +602,115 @@
 
     .about-content-list ul li {
         gap: 12px;
+    }
+
+    .product_menu li{
+        margin-bottom: 12px;
+       }
+
+       .product_inner {
+        padding-top: 28px;
+    }
+
+    .section_heading h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .home_two_heading_style h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .home_two_heading_style h5 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+
+    .section_heading h5 {
+        padding-bottom: 7px;
+    }
+
+    .why_choose_single_item h4 {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+
+    .quote_head h2 {
+        font-size: 28px;
+    }
+
+    .quote_head {
+        padding-bottom: 20px;
+    }
+
+    .quote_area_wrapper {
+        padding: 30px 30px 60px 30px;
+    }
+
+    .our_mission_content h3 {
+        font-size: 26px;
+        line-height: 36px;
+        padding-bottom: 10px;
+    }
+
+    .services_details_content_wrapper h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .projects_details_content_wrapper h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .popular_tag_wrapper h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .news_details_content_wrapper h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .team_details_head h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .product_details_head h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .related_ptoduct_area h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .price_head h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .check-heading h3 {
+        font-size: 26px;
+        padding-bottom: 14px;
+    }
+
+    .faq_head h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #faq_page_area{
+        padding: 50px 0px 70px 0px;
+    }
+
+    .error_content_wrapper h3 {
+        font-size: 30px;
+        line-height: 36px;
     }
 }
 
